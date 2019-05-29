@@ -1,0 +1,104 @@
+*,
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+button {
+  font-size: "微软雅黑";
+  margin-bottom: 0;
+}
+.flex {
+  display: flex;
+  display: -webkit-flex;
+}
+.flex-auto {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.flex-right {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+.flex-left {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.flex-between {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  width: 399px;
+  height: 50px;
+  background: #ffffff;
+  border-radius: 2px;
+  border: 1px solid #d5d5d5;
+  box-sizing: border-box;
+  padding-left: 15px;
+}
+.update-user {
+  box-sizing: border-box;
+  background: #ffffff;
+  box-shadow: 2px 2px 4px 0px rgba(213, 213, 213, 0.5), -2px -2px 4px 0px rgba(213, 213, 213, 0.5);
+  border-radius: 3px;
+  padding: 80px 0;
+  text-align: center;
+}
+.update-user .title {
+  font-size: 26px;
+}
+.update-user .avatar {
+  width: 150px;
+  height: 150px;
+  margin: 50px 0;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.update-user .update-form {
+  width: 550px;
+  margin: 0 auto;
+}
+.update-user .update-form .el-form-item {
+  margin-bottom: 50px;
+}
+.update-user .update-form > :last-child {
+  margin-bottom: 65px;
+}
+.update-user .update-form button {
+  margin-top: 15px;
+}
+.update-user .el-form .el-input {
+  border-radius: 100px;
+  height: 75px;
+  line-height: 75px;
+  font-size: 26px;
+  padding-left: 35px;
+}
+.update-user .el-form .el-button {
+  width: 190px;
+  height: 70px;
+  border-radius: 100px;
+  font-size: 26px;
+}

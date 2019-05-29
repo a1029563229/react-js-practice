@@ -1,0 +1,57 @@
+@import url(../../../assets/style/style.less);
+
+.update-user {
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 2px 2px 4px 0px rgba(213, 213, 213, 0.5),
+        -2px -2px 4px 0px rgba(213, 213, 213, 0.5);
+    border-radius: 3px;
+    padding: 80px 0;
+    text-align: center;
+
+    .title {
+        font-size: 26px;
+    }
+
+    .avatar {
+        width: 150px;
+        height: 150px;
+        margin: 50px 0;
+        border-radius: 100%;
+        cursor: pointer;
+    }
+
+    .update-form {
+        width: 550px;
+        margin: 0 auto;
+
+        .el-form-item {
+            margin-bottom: 50px;
+        }
+
+        > :last-child {
+            margin-bottom: 65px;
+        }
+
+        button {
+            margin-top: 15px;
+        }
+    }
+
+    .el-form {
+        .el-input {
+            border-radius: 100px;
+            height: 75px;
+            line-height: 75px;
+            font-size: 26px;
+            padding-left: 35px;
+        }
+
+        .el-button {
+            width: 190px;
+            height: 70px;
+            border-radius: 100px;
+            font-size: 26px;
+        }
+    }
+}

@@ -1,0 +1,128 @@
+*,
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+button {
+  font-size: "微软雅黑";
+}
+.flex {
+  display: flex;
+  display: -webkit-flex;
+}
+.flex-auto {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.flex-right {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+.flex-left {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.flex-between {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  width: 399px;
+  height: 50px;
+  background: #ffffff;
+  border-radius: 2px;
+  border: 1px solid #d5d5d5;
+  box-sizing: border-box;
+  padding-left: 15px;
+}
+.home {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.home .navigator {
+  width: 370px;
+  height: 100%;
+  background: #2e3050;
+  position: relative;
+}
+.home .navigator .user-info-wrapper {
+  padding: 26px 43px;
+  box-sizing: border-box;
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.home .navigator .user-info-wrapper .avatar {
+  width: 94px;
+  height: 94px;
+  border-radius: 100%;
+}
+.home .navigator .user-info-wrapper .user-info {
+  color: white;
+  margin-left: 20px;
+}
+.home .navigator .user-info-wrapper .user-info h2 {
+  font-size: 23px;
+  color: white;
+}
+.home .navigator .user-info-wrapper .user-info p {
+  font-size: 15px;
+  margin-top: 5px;
+}
+.home .navigator .settings-bar {
+  position: absolute;
+  bottom: 26px;
+  left: 43px;
+  color: white;
+}
+.home .navigator .settings-bar p {
+  cursor: pointer;
+  font-size: 21px;
+  margin-top: 15px;
+}
+.home .content-wrapper {
+  flex-grow: 1;
+  height: 100%;
+  background: #f4f8fb;
+  box-sizing: border-box;
+  padding: 40px 50px;
+  position: relative;
+}
+.home .content-wrapper > section {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 94%;
+  height: 94%;
+}

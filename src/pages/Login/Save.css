@@ -1,0 +1,123 @@
+*,
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+button {
+  font-size: "微软雅黑";
+  margin-bottom: 0;
+}
+.flex {
+  display: flex;
+  display: -webkit-flex;
+}
+.flex-auto {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.flex-right {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+.flex-left {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.flex-between {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  width: 399px;
+  height: 50px;
+  background: #ffffff;
+  border-radius: 2px;
+  border: 1px solid #d5d5d5;
+  box-sizing: border-box;
+  padding-left: 15px;
+}
+.login-wrapper {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background: url("../../assets/images/common/bg.jpg") 0 0 no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-wrapper form {
+  width: 528px;
+  height: 597px;
+  background: #ffffff;
+  box-shadow: 1px 1px 4px 1px rgba(140, 132, 132, 0.5), -1px 0px 4px 0px rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  padding: 60px;
+}
+.login-wrapper form h1 {
+  width: 107px;
+  height: 35px;
+  font-size: 26px;
+  font-family: MicrosoftYaHei;
+  color: #000000;
+  line-height: 35px;
+  letter-spacing: 4px;
+}
+.login-wrapper form .form-group {
+  margin-top: 60px;
+}
+.login-wrapper form .form-group .form-item {
+  margin-bottom: 30px;
+}
+.login-wrapper form .form-group .form-item div {
+  font-size: 19px;
+  font-family: MicrosoftYaHei;
+  color: #3c3c3c;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+.login-wrapper form .form-group .form-item input {
+  font-size: 18px;
+}
+.login-wrapper form button {
+  display: block;
+  width: 190px;
+  height: 50px;
+  background: #927777;
+  border: 1px solid #979797;
+  margin: 0 auto;
+  margin-top: 70px;
+  color: white;
+  font-size: 15px;
+  font-family: MicrosoftYaHei;
+  cursor: pointer;
+}
+.login-wrapper form button div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-wrapper form button div span {
+  margin-right: 5px;
+}

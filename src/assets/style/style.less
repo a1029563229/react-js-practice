@@ -1,0 +1,71 @@
+*,
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+button {
+    font-size: "微软雅黑";
+    margin-bottom: 0;
+}
+
+.flex {
+    display: flex;
+    display: -webkit-flex;
+}
+
+.flex-auto {
+    .flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-right {
+    .flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.flex-left {
+    .flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex-between {
+    .flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ellipsis(@line: 2) {
+    box-sizing: border-box;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: @line;
+    overflow: hidden;
+}
+
+input {
+    width: 399px;
+    height: 50px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 2px;
+    border: 1px solid rgba(213, 213, 213, 1);
+    box-sizing: border-box;
+    padding-left: 15px;
+}
